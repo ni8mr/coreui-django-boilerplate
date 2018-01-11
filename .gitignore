@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/node,code,python,pycharm+all
 
 ### sqlite db ###
-*.sqlite
+*.sqlite3
 
 ### Code ###
 # Visual Studio Code - https://code.visualstudio.com/
