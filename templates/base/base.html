@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!--Headers-->
-{% include 'coreui/header.html' %}
+{% include 'base/header.html' %}
 
 <!-- BODY options, add following classes to body to change options
 
@@ -34,17 +34,17 @@
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
 <!--Navbar-->
-{% include 'coreui/navbar.html' %}
+{% include 'base/navbar.html' %}
 
 <div class="app-body">
     <!--Sidebar-->
-    {% include 'coreui/sidebar.html' %}
+    {% include 'base/sidebar.html' %}
 
     <!-- Main content -->
     <main class="main">
 
         <!-- Breadcrumb -->
-        {% include 'coreui/breadcrumb.html' %}
+        {% include 'base/breadcrumb.html' %}
 
         <!-- Page contents -->
         <div class="container-fluid">
@@ -58,15 +58,15 @@
     </main>
 
 
-    {% include 'coreui/asidebar.html' %}
+    {% include 'base/asidebar.html' %}
 
 </div>
 
 <!--Footer-->
-{% include 'coreui/footer.html' %}
+{% include 'base/footer.html' %}
 
 <!--JS-->
-{% include 'coreui/js.html' %}
+{% include 'base/js.html' %}
 
 </body>
 </html>
